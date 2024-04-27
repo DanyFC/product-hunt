@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gray: #3d3d3d;
+  --gray2: #6F6F6F;
+  --gray3: #E1E1E1;
+  --orange: #DA552F;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: '__PT_Sans_2b1938', sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+  margin: 2rem 0 0 0;
+}
+
+h1,h2 {
+  font-family: '__Roboto_Slab_5d9861', serif;
+  font-weight: 700;
+}
+
+h3{
+  font-family: '__PT_Sans_2b1938', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.product-list {
+  background-color: #f3f3f3;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  padding: 4rem 0;
+  margin: 0 auto;
+}
+
+.bg-white {
+  background-color: white;
+}
